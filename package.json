@@ -1,0 +1,19 @@
+{
+  "name": "ethfunder-dapp-main",
+  "version": "1.0.0",
+  "description": "EthFunder is a decentralized crowdfunding platform built on the Ethereum blockchain and deployed on the Sepolia Testnet. This DApp allows users to create and contribute to crowdfunding projects using Ethereum. Project creators can set funding goals and deadlines, while contributors can support projects they believe in by making donations in Ether.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "solc": "^0.8.28",
+    "web3": "^4.16.0"
+  },
+  "devDependencies": {}
+}
