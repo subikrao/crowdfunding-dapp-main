@@ -15,5 +15,12 @@
     "solc": "^0.8.28",
     "web3": "^4.16.0"
   },
-  "devDependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/subikrao/crowdfunding-dapp-main.git"
+  },
+  "bugs": {
+    "url": "https://github.com/subikrao/crowdfunding-dapp-main/issues"
+  },
+  "homepage": "https://github.com/subikrao/crowdfunding-dapp-main#readme"
 }
