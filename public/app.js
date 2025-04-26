@@ -859,7 +859,7 @@ async function loadProjects() {
             const raisedAmount = isCompleted ? project[3] : project[5];
 
             // Calculate progress percentage
-            const progressPercent = (parseInt(raisedAmount) / parseInt(project[3])) * 100;
+            const progressPercent = Number(((parseInt(raisedAmount) / parseInt(project[3])) * 100).toFixed(4));
 
             let statusBadge = "";
             if (isCompleted) {
@@ -907,8 +907,8 @@ async function loadProjects() {
                             </div>
                             
                             <div class="d-flex justify-content-between text-muted small mb-3">
-                                <span>${raisedAmount} wei</span>
-                                <span>${project[3]} wei</span>
+                                <span>${progressPercent}% raised</span>
+                                <span>Goal: ${project[3]} wei</span>
                             </div>
                             
                             <div class="d-flex justify-content-between mb-3">
