@@ -2,7 +2,7 @@
 
 ChainFund is a decentralized blockchain crowdfunding platform that enables transparent, secure, and efficient fundraising through Ethereum smart contracts.
 
-![ChainFund Logo](https://images.youngplatform.com/coins/eth_light_3.png)
+![ChainFund Logo](logo.png)
 
 ## Overview
 
