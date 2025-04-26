@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # ChainFund
 
 ChainFund is a decentralized blockchain crowdfunding platform that enables transparent, secure, and efficient fundraising through Ethereum smart contracts.
@@ -123,8 +122,3 @@ The Crowdfunding.sol contract implements several key functions:
 - **Icons**: Font Awesome
 - **Backend**: Node.js with Express
 
-=======
-# crowdfunding-dapp
-
-to start use node server.js
->>>>>>> dcb64d998c8a829cee64aa596d613bf11f063766
