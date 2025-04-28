@@ -427,7 +427,7 @@ var contractABI = [
     }
 
 ];
-var contractAddress = "0xF64c22ef0546b3ea8EE98dE8D3e41905edd6dFa4";
+var contractAddress = "0xf2B415437232De991A6B724d66d2d2499D67B567";
 
 let web3; // Web3 instance
 let contractInstance; // Contract instance
